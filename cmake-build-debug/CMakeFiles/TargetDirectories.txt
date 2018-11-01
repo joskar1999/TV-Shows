@@ -1,0 +1,3 @@
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/Projekt.dir
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir

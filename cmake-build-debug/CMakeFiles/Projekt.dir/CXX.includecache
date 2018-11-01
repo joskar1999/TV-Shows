@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Collection.h
+List.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/List.h
+vector
+-
+
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.h
+Video.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.h
+
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/List.h
+vector
+-
+
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Live.h
+Video.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.h
+
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Movie.h
+IMDB.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.h
+
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Series.h
+IMDB.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.h
+vector
+-
+string
+-
+
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.h
+string
+-
+
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/main.cpp
+iostream
+-
+Series.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Series.h
+List.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/List.h
+Collection.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Collection.h
+Movie.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Movie.h
+Live.h
+D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Live.h
+
