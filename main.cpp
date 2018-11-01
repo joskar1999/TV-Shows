@@ -68,6 +68,7 @@ int main() {
         std::cout << "5: Dodaj nowy film" << std::endl;
         std::cout << "6: Dodaj nowy live" << std::endl;
         std::cout << "7: Usun ze sledzonych" << std::endl;
+        std::cout << "8: Rekomendacje" << std::endl;
         std::cout << "q: Zakoncz" << std::endl;
         choice = getch();
 
@@ -115,6 +116,13 @@ int main() {
                 std::cout << "Usun ze sledzonych: Wprowadz nazwe wideo ktore chcesz usunac... ";
                 std::cin >> name;
                 list.removeFromCollection(name);
+                break;
+            case '8':
+                system("cls");
+                std::cout << "Filmy i seriale z najwyzszymi ocenami" << std::endl;
+                list.recomendation();
+                std::cout << "Nacisnij dowolny klawisz aby kontynuowac... ";
+                getch();
                 break;
             case 'q':
                 break;

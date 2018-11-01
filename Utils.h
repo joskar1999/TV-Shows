@@ -7,6 +7,11 @@
 #include "Movie.h"
 #include "Live.h"
 
+/**
+ * Funkcje służące do wczytywania obiektu
+ * z klawiatury, metody zwracają utworzony obiekt
+ * danego typu
+ */
 class Utils {
 
 public:

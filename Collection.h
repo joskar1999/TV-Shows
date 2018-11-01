@@ -3,6 +3,7 @@
 
 
 #include "List.h"
+#include "Movie.h"
 #include <vector>
 
 template<class T>
@@ -20,10 +21,19 @@ public:
         return collection;
     }
 
+    /**
+     * Dodanie obiektu do puli śledzonych
+     * element powinien istnieć w ogolnej liście
+     * @param name - nazwa obiektu, który chcemy dodać
+     */
     void addToCollection(std::string name) {
         collection.push_back(getElement(name));
     }
 
+    /**
+     * Usuwanie obiektu o podanej nazwie z puli śledzonych
+     * @param name - obiekt do usunięcia
+     */
     void removeFromCollection(std::string name) {
         for (int i = 0; i < collection.size(); ++i) {
             if (collection[i]->getName() == name) {
@@ -32,6 +42,9 @@ public:
         }
     }
 
+    /**
+     * Wyświetlenie całej puli śledzonych
+     */
     void displayCollection() {
         for (int i = 0; i < collection.size(); ++i) {
             collection[i]->display();
@@ -44,6 +57,24 @@ public:
             duration += collection[i]->getWeeklyDuration();
         }
         return duration;
+    }
+
+    /**
+     * Metoda wyświetla obiekty klasy Series i Movie,
+     * które mają rating wyższy niż 7.5
+     */
+    void recomendation() {
+        for (int i = 0; i < collection.size(); ++i) {
+            if (dynamic_cast<Series *>(collection[i])) {
+                if (dynamic_cast<Series *>(collection[i])->getRating() > 7.5) {
+                    collection[i]->display();
+                }
+            } else if (dynamic_cast<Movie *>(collection[i])) {
+                if (dynamic_cast<Movie *>(collection[i])->getRating() > 7.5) {
+                    collection[i]->display();
+                }
+            }
+        }
     }
 };
 

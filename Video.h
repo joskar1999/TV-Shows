@@ -17,6 +17,10 @@ public:
 
     void setName(const std::string &name);
 
+    /**
+     * Wyświetlanie informacji o danym obiekcie,
+     * metoda do nadpisania w klasach pochodnych
+     */
     virtual void display() = 0;
 
     virtual int getWeeklyDuration() = 0;

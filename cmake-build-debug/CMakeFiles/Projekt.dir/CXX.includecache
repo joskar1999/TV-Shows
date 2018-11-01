@@ -9,8 +9,14 @@
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Collection.h
 List.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
+Movie.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
 vector
 -
+
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.cpp
+IMDB.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
 
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
 Video.h
@@ -20,13 +26,31 @@ E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
 vector
 -
 
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.cpp
+iostream
+-
+Live.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
+
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
 Video.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
 
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.cpp
+iostream
+-
+Movie.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
+
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
 IMDB.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
+
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.cpp
+iostream
+-
+Series.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
 
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
 IMDB.h
@@ -35,6 +59,10 @@ vector
 -
 string
 -
+
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.cpp
+Utils.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
 
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
 iostream
@@ -47,6 +75,10 @@ Movie.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
 Live.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
+
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.cpp
+Video.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
 
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
 string
