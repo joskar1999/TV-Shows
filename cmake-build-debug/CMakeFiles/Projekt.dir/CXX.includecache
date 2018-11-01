@@ -6,51 +6,67 @@
 
 #IncludeRegexTransform: 
 
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Collection.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Collection.h
 List.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/List.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
 vector
 -
 
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
 Video.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
 
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/List.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
 vector
 -
 
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Live.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
 Video.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
 
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Movie.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
 IMDB.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
 
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Series.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
 IMDB.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
 vector
 -
 string
 -
 
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.h
-string
--
-
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/main.cpp
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
 iostream
 -
+conio.h
+-
 Series.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Series.h
-List.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/List.h
-Collection.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Collection.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
 Movie.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Movie.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
 Live.h
-D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Live.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
+
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
+string
+-
+
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/main.cpp
+iostream
+-
+conio.h
+-
+Series.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
+List.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
+Collection.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Collection.h
+Movie.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
+Live.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
+Utils.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
 

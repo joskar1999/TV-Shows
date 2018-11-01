@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Studia\Semestr III\Programowanie obiektowe\Projekt"
+CMAKE_SOURCE_DIR = "E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\CMakeFiles" "D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\CMakeFiles" "E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -259,6 +259,33 @@ Stats.cpp.s:
 	$(MAKE) -f CMakeFiles\Projekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt.dir\Stats.cpp.s
 .PHONY : Stats.cpp.s
 
+Utils.obj: Utils.cpp.obj
+
+.PHONY : Utils.obj
+
+# target to build an object file
+Utils.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt.dir\Utils.cpp.obj
+.PHONY : Utils.cpp.obj
+
+Utils.i: Utils.cpp.i
+
+.PHONY : Utils.i
+
+# target to preprocess a source file
+Utils.cpp.i:
+	$(MAKE) -f CMakeFiles\Projekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt.dir\Utils.cpp.i
+.PHONY : Utils.cpp.i
+
+Utils.s: Utils.cpp.s
+
+.PHONY : Utils.s
+
+# target to generate assembly for a file
+Utils.cpp.s:
+	$(MAKE) -f CMakeFiles\Projekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt.dir\Utils.cpp.s
+.PHONY : Utils.cpp.s
+
 Video.obj: Video.cpp.obj
 
 .PHONY : Video.obj
@@ -337,6 +364,9 @@ help:
 	@echo ... Stats.obj
 	@echo ... Stats.i
 	@echo ... Stats.s
+	@echo ... Utils.obj
+	@echo ... Utils.i
+	@echo ... Utils.s
 	@echo ... Video.obj
 	@echo ... Video.i
 	@echo ... Video.s

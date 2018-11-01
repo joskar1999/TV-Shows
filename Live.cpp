@@ -26,3 +26,7 @@ void Live::display() {
     std::cout << "Start: " << getStart() << std::endl;
     std::cout << std::endl;
 }
+
+int Live::getWeeklyDuration() {
+    return duration;
+}

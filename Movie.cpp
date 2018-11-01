@@ -20,3 +20,7 @@ void Movie::display() {
     std::cout << std::endl;
 }
 
+int Movie::getWeeklyDuration() {
+    return duration;
+}
+

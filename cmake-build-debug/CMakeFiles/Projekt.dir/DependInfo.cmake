@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.cpp" "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/Projekt.dir/IMDB.cpp.obj"
-  "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Live.cpp" "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/Projekt.dir/Live.cpp.obj"
-  "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Movie.cpp" "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/Projekt.dir/Movie.cpp.obj"
-  "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Series.cpp" "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/Projekt.dir/Series.cpp.obj"
-  "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Stats.cpp" "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/Projekt.dir/Stats.cpp.obj"
-  "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.cpp" "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/Projekt.dir/Video.cpp.obj"
-  "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/main.cpp" "D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/CMakeFiles/Projekt.dir/main.cpp.obj"
+  "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.cpp" "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/CMakeFiles/Projekt.dir/IMDB.cpp.obj"
+  "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.cpp" "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/CMakeFiles/Projekt.dir/Live.cpp.obj"
+  "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.cpp" "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/CMakeFiles/Projekt.dir/Movie.cpp.obj"
+  "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.cpp" "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/CMakeFiles/Projekt.dir/Series.cpp.obj"
+  "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Stats.cpp" "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/CMakeFiles/Projekt.dir/Stats.cpp.obj"
+  "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.cpp" "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/CMakeFiles/Projekt.dir/Utils.cpp.obj"
+  "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.cpp" "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/CMakeFiles/Projekt.dir/Video.cpp.obj"
+  "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/main.cpp" "E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/CMakeFiles/Projekt.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

@@ -21,11 +21,11 @@ void Series::setEpisodes(const std::vector<std::string> &episodes) {
     Series::episodes = episodes;
 }
 
-const std::vector<std::string> &Series::getEpisodesDuration() const {
+const std::vector<int> &Series::getEpisodesDuration() const {
     return episodesDuration;
 }
 
-void Series::setEpisodesDuration(const std::vector<std::string> &episodesDuration) {
+void Series::setEpisodesDuration(const std::vector<int> &episodesDuration) {
     Series::episodesDuration = episodesDuration;
 }
 
@@ -36,3 +36,10 @@ void Series::display() {
     std::cout << std::endl;
 }
 
+int Series::getWeeklyDuration() {
+    int duration = 0;
+    for (int i = 0; i < episodesDuration.size(); ++i) {
+        duration += episodesDuration[i];
+    }
+    return duration;
+}

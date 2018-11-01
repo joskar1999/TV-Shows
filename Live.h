@@ -22,6 +22,8 @@ public:
     void setDuration(int duration);
 
     void display() override;
+
+    virtual int getWeeklyDuration();
 };
 
 

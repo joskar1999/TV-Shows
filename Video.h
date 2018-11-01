@@ -18,6 +18,8 @@ public:
     void setName(const std::string &name);
 
     virtual void display() = 0;
+
+    virtual int getWeeklyDuration() = 0;
 };
 
 

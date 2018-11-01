@@ -10,7 +10,7 @@ class Series : public IMDB {
 private:
     int episodesAmount;
     std::vector<std::string> episodes;
-    std::vector<std::string> episodesDuration;
+    std::vector<int> episodesDuration;
 public:
     Series();
 
@@ -24,11 +24,13 @@ public:
 
     void setEpisodes(const std::vector<std::string> &episodes);
 
-    const std::vector<std::string> &getEpisodesDuration() const;
+    const std::vector<int> &getEpisodesDuration() const;
 
-    void setEpisodesDuration(const std::vector<std::string> &episodesDuration);
+    void setEpisodesDuration(const std::vector<int> &episodesDuration);
 
     void display() override;
+
+    virtual int getWeeklyDuration();
 };
 
 

@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Projekt.dir/Movie.cpp.obj"
   "CMakeFiles/Projekt.dir/Live.cpp.obj"
   "CMakeFiles/Projekt.dir/Stats.cpp.obj"
+  "CMakeFiles/Projekt.dir/Utils.cpp.obj"
   "Projekt.pdb"
   "Projekt.exe"
   "Projekt.exe.manifest"

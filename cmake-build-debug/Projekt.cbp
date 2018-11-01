@@ -8,126 +8,130 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug"/>
+				<Option working_dir="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Projekt">
-				<Option output="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/Projekt.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug"/>
+				<Option output="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/Projekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 Projekt"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 Projekt"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Projekt/fast">
-				<Option output="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug/Projekt.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug"/>
+				<Option output="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug/Projekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 Projekt/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 Projekt/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug"/>
+				<Option working_dir="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/cmake-build-debug"/>
+				<Option working_dir="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\Studia\Semestr III\Programowanie obiektowe\Projekt\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;E:\Studia\Semestr III\Programowanie obiektowe\Projekt\TV-Shows\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Collection.h">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Collection.h">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.cpp">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.cpp">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/IMDB.h">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/List.h">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Live.cpp">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.cpp">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Live.h">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Movie.cpp">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.cpp">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Movie.h">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Series.cpp">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.cpp">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Series.h">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Stats.cpp">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Stats.cpp">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Stats.h">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Stats.h">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.cpp">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.cpp">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/Video.h">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/main.cpp">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.cpp">
 			<Option target="Projekt"/>
 		</Unit>
-		<Unit filename="D:/Studia/Semestr III/Programowanie obiektowe/Projekt/CMakeLists.txt">
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h">
+			<Option target="Projekt"/>
+		</Unit>
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/main.cpp">
+			<Option target="Projekt"/>
+		</Unit>
+		<Unit filename="E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
