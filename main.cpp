@@ -6,10 +6,12 @@
 #include "Movie.h"
 #include "Live.h"
 #include "Utils.h"
+#include <string>
 
 int main() {
 
     char choice = 'c';
+    char *arr[100];
     std::string name;
 
     Series tmpSer, *serPtr;
@@ -69,6 +71,7 @@ int main() {
         std::cout << "6: Dodaj nowy live" << std::endl;
         std::cout << "7: Usun ze sledzonych" << std::endl;
         std::cout << "8: Rekomendacje" << std::endl;
+        std::cout << "9: Edytuj Wideo" << std::endl;
         std::cout << "q: Zakoncz" << std::endl;
         choice = getch();
 
@@ -89,31 +92,52 @@ int main() {
                 system("cls");
                 list.displayList();
                 std::cout << "Dodaj do sledzonych: Wprowadz nazwe wideo ktore chcesz dodac... ";
+//                std::getline(std::cin, name);
                 std::cin >> name;
                 list.addToCollection(name);
                 break;
             case '4':
                 system("cls");
+                Series *tmpSeries;
+                tmpSeries = new Series();
+
                 tmpSer = Utils::createNewSeries();
-                serPtr = &tmpSer;
-                list.add(dynamic_cast<Series *>(serPtr));
+                tmpSeries->setName(tmpSer.getName());
+                tmpSeries->setRating(tmpSer.getRating());
+                tmpSeries->setEpisodesAmount(tmpSer.getEpisodesAmount());
+                tmpSeries->setEpisodes(tmpSer.getEpisodes());
+
+                list.add(dynamic_cast<Series *>(tmpSeries));
                 break;
             case '5':
                 system("cls");
+                Movie *tmpMovie;
+                tmpMovie = new Movie();
+
                 tmpMov = Utils::createNewMovie();
-                movPtr = &tmpMov;
-                list.add(dynamic_cast<Movie *>(movPtr));
+                tmpMovie->setName(tmpMov.getName());
+                tmpMovie->setRating(tmpMov.getRating());
+                tmpMovie->setDuration(tmpMov.getDuration());
+
+                list.add(dynamic_cast<Movie *>(tmpMovie));
                 break;
             case '6':
                 system("cls");
+                Live *tmpLive;
+                tmpLive = new Live();
+
                 tmpLiv = Utils::createNewLive();
-                livPtr = &tmpLiv;
-                list.add(dynamic_cast<Live *>(livPtr));
+                tmpLive->setName(tmpLiv.getName());
+                tmpLive->setStart(tmpLiv.getStart());
+                tmpLive->setDuration(tmpLiv.getDuration());
+
+                list.add(dynamic_cast<Live *>(tmpLive));
                 break;
             case '7':
                 system("cls");
                 list.displayCollection();
                 std::cout << "Usun ze sledzonych: Wprowadz nazwe wideo ktore chcesz usunac... ";
+//                std::getline(std::cin, name);
                 std::cin >> name;
                 list.removeFromCollection(name);
                 break;
@@ -124,6 +148,48 @@ int main() {
                 std::cout << "Nacisnij dowolny klawisz aby kontynuowac... ";
                 getch();
                 break;
+            case '9':
+                system("cls");
+                list.displayList();
+                std::cout << "Podaj nazwe wideo, ktore chcesz edytowac: ";
+//                std::getline(std::cin, name);
+                std::cin >> name;
+                if (dynamic_cast<Series *>(list.getElement(name))) {
+                    Series *tmpSeries;
+                    tmpSeries = new Series();
+                    tmpSer = Utils::editSeries(name);
+                    tmpSeries->setName(tmpSer.getName());
+                    tmpSeries->setRating(tmpSer.getRating());
+                    tmpSeries->setEpisodesAmount(tmpSer.getEpisodesAmount());
+                    tmpSeries->setEpisodes(tmpSer.getEpisodes());
+                    list.List::modify(tmpSeries, name);
+                    if (list.isInCollection(name)) {
+                        list.modify(tmpSeries, name);
+                    }
+                } else if (dynamic_cast<Movie *>(list.getElement(name))) {
+                    Movie *tmpMovie;
+                    tmpMovie = new Movie();
+                    tmpMov = Utils::editMovie(name);
+                    tmpMovie->setName(tmpMov.getName());
+                    tmpMovie->setRating(tmpMov.getRating());
+                    tmpMovie->setDuration(tmpMov.getDuration());
+                    list.List::modify(tmpMovie, name);
+                    if (list.isInCollection(name)) {
+                        list.modify(tmpMovie, name);
+                    }
+                } else if (dynamic_cast<Live *>(list.getElement(name))) {
+                    Live *tmpLive;
+                    tmpLive = new Live();
+                    tmpLiv = Utils::createNewLive();
+                    tmpLive->setName(tmpLiv.getName());
+                    tmpLive->setStart(tmpLiv.getStart());
+                    tmpLive->setDuration(tmpLiv.getDuration());
+                    list.List::modify(tmpLive, name);
+                    if (list.isInCollection(name)) {
+                        list.modify(tmpLive, name);
+                    }
+                }
+                getch();
             case 'q':
                 break;
             default:

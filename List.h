@@ -74,6 +74,22 @@ public:
         }
         return false;
     }
+
+    int getIndex(std::string name) {
+        for (int i = 0; i < list.size(); ++i) {
+            if (list[i]->getName() == name) {
+                return i;
+            }
+        }
+    }
+
+    void modify(T *object, std::string name) {
+        for (int i = 0; i < list.size(); ++i) {
+            if (list[i]->getName() == name) {
+                list[i] = object;
+            }
+        }
+    }
 };
 
 

@@ -76,6 +76,23 @@ public:
             }
         }
     }
+
+    bool isInCollection(std::string name) {
+        for (int i = 0; i < collection.size(); ++i) {
+            if (collection[i]->getName() == name) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    void modify(T *object, std::string name) {
+        for (int i = 0; i < collection.size(); ++i) {
+            if (collection[i]->getName() == name) {
+                collection[i] = object;
+            }
+        }
+    }
 };
 
 

@@ -20,6 +20,12 @@ public:
     static Movie createNewMovie();
 
     static Live createNewLive();
+
+    static Series editSeries(std::string name);
+
+    static Movie editMovie(std::string name);
+
+    static Live editLive(std::string name);
 };
 
 
