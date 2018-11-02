@@ -13,12 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2149764d-c084-4830-a3d9-f19651684e54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collection.h" beforeDir="false" afterPath="$PROJECT_DIR$/Collection.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/List.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stats.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stats.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Utils.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/Utils.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/Utils.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/Stats.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/Stats.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Projekt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Projekt.exe" afterDir="false" />
@@ -74,35 +76,37 @@
     <session id="-1253402290">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="10" />
-          <entry key="h" value="20" />
+          <entry key="cpp" value="14" />
+          <entry key="h" value="24" />
+          <entry key="utility" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="30" />
+          <entry key="ObjectiveC" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="4955" />
-          <entry key="h" value="2466" />
+          <entry key="cpp" value="6416" />
+          <entry key="h" value="2657" />
           <entry key="mm" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="17" />
-          <entry key="ObjectiveC" value="7407" />
+          <entry key="ObjectiveC" value="9059" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -116,10 +120,22 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="194">
-                  <caret line="188" column="51" selection-start-line="188" selection-start-column="51" selection-end-line="188" selection-end-column="51" />
+                <state relative-caret-position="-2680">
+                  <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Stats.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#50#67#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -130,10 +146,22 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/List.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="678">
+                  <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#74#83#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Utils.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+                <state relative-caret-position="510">
+                  <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
                   <folding>
                     <element signature="e#49#68#0" expanded="true" />
                   </folding>
@@ -144,20 +172,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Utils.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="449">
-                  <caret line="174" selection-start-line="174" selection-end-line="174" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/List.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="678">
-                  <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#74#83#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="398">
+                  <caret line="191" column="5" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -165,7 +181,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Collection.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="627">
+                <state relative-caret-position="1547">
                   <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
                 </state>
               </provider>
@@ -188,8 +204,6 @@
       <list>
         <option value="$PROJECT_DIR$/IMDB.h" />
         <option value="$PROJECT_DIR$/IMDB.cpp" />
-        <option value="$PROJECT_DIR$/Stats.cpp" />
-        <option value="$PROJECT_DIR$/Stats.h" />
         <option value="$PROJECT_DIR$/Video.cpp" />
         <option value="$PROJECT_DIR$/TestList.h" />
         <option value="$PROJECT_DIR$/Series.h" />
@@ -199,11 +213,13 @@
         <option value="$PROJECT_DIR$/Movie.cpp" />
         <option value="$PROJECT_DIR$/Series.cpp" />
         <option value="$PROJECT_DIR$/Video.h" />
-        <option value="$PROJECT_DIR$/Utils.h" />
         <option value="$PROJECT_DIR$/Collection.h" />
+        <option value="$PROJECT_DIR$/Stats.cpp" />
+        <option value="$PROJECT_DIR$/Stats.h" />
         <option value="$PROJECT_DIR$/List.h" />
-        <option value="$PROJECT_DIR$/Utils.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Utils.h" />
+        <option value="$PROJECT_DIR$/Utils.cpp" />
       </list>
     </option>
   </component>
@@ -214,8 +230,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="823" />
-    <option name="width" value="1744" />
+    <option name="x" value="887" />
+    <option name="width" value="1680" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -223,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,6 +250,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,12 +301,13 @@
       <workItem from="1541085680405" duration="11552000" />
       <workItem from="1541157679755" duration="5784000" />
       <workItem from="1541166897389" duration="4000" />
-      <workItem from="1541166977225" duration="6564000" />
+      <workItem from="1541166977225" duration="7107000" />
+      <workItem from="1541180290025" duration="3608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41106000" />
+    <option name="totallyTimeSpent" value="45257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,10 +319,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="823" y="0" width="1744" height="1047" extended-state="0" />
+    <frame x="887" y="0" width="1680" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13361046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14012346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,13 +386,6 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stats.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Video.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -384,9 +394,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestList.h" />
-    <entry file="file://$PROJECT_DIR$/Stats.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Live.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -436,12 +443,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils.h">
+    <entry file="file://$PROJECT_DIR$/Collection.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="1547">
+          <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stats.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
-            <element signature="e#49#68#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stats.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#50#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -449,34 +473,44 @@
     <entry file="file://$PROJECT_DIR$/List.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="678">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
           <folding>
             <element signature="e#74#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collection.h">
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.11.25503/include/utility">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        <state relative-caret-position="196">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="188" column="51" selection-start-line="188" selection-start-column="51" selection-end-line="188" selection-end-column="51" />
+        <state relative-caret-position="-2680">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#49#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="191" column="5" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
         </state>
       </provider>
     </entry>

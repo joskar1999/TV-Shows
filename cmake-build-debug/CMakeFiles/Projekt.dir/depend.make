@@ -19,8 +19,12 @@ CMakeFiles\Projekt.dir\Series.cpp.obj: ..\Series.cpp
 CMakeFiles\Projekt.dir\Series.cpp.obj: ..\Series.h
 CMakeFiles\Projekt.dir\Series.cpp.obj: ..\Video.h
 
+CMakeFiles\Projekt.dir\Stats.cpp.obj: ..\IMDB.h
+CMakeFiles\Projekt.dir\Stats.cpp.obj: ..\Movie.h
+CMakeFiles\Projekt.dir\Stats.cpp.obj: ..\Series.h
 CMakeFiles\Projekt.dir\Stats.cpp.obj: ..\Stats.cpp
 CMakeFiles\Projekt.dir\Stats.cpp.obj: ..\Stats.h
+CMakeFiles\Projekt.dir\Stats.cpp.obj: ..\Video.h
 
 CMakeFiles\Projekt.dir\Utils.cpp.obj: ..\IMDB.h
 CMakeFiles\Projekt.dir\Utils.cpp.obj: ..\Live.h
@@ -39,6 +43,7 @@ CMakeFiles\Projekt.dir\main.cpp.obj: ..\List.h
 CMakeFiles\Projekt.dir\main.cpp.obj: ..\Live.h
 CMakeFiles\Projekt.dir\main.cpp.obj: ..\Movie.h
 CMakeFiles\Projekt.dir\main.cpp.obj: ..\Series.h
+CMakeFiles\Projekt.dir\main.cpp.obj: ..\Stats.h
 CMakeFiles\Projekt.dir\main.cpp.obj: ..\Utils.h
 CMakeFiles\Projekt.dir\main.cpp.obj: ..\Video.h
 CMakeFiles\Projekt.dir\main.cpp.obj: ..\main.cpp

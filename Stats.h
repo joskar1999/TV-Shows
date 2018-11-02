@@ -2,19 +2,26 @@
 #define PROJEKT_STATS_H
 
 
+#include <vector>
+#include "Video.h"
+
 class Stats {
 
 private:
-    double averageRate;
+    double averageRateSeries;
+
+    double averageRateMovie;
 
 public:
     Stats();
 
     virtual ~Stats();
 
-    double getAverageRate() const;
+    void countAverageRate(std::vector<Video *> video);
 
-    void countAverageRate();
+    double getAverageRateSeries() const;
+
+    double getAverageRateMovie() const;
 };
 
 

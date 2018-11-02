@@ -20,8 +20,12 @@ CMakeFiles/Projekt.dir/Series.cpp.obj
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
 CMakeFiles/Projekt.dir/Stats.cpp.obj
+ E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
+ E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
+ E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Stats.cpp
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Stats.h
+ E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
 CMakeFiles/Projekt.dir/Utils.cpp.obj
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
@@ -40,6 +44,7 @@ CMakeFiles/Projekt.dir/main.cpp.obj
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
+ E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Stats.h
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
  E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/main.cpp

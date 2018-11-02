@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <conio.h>
+#include <algorithm>
 #include "Series.h"
 #include "Movie.h"
 #include "Live.h"
@@ -26,6 +27,8 @@ public:
     static Movie editMovie(std::string name);
 
     static Live editLive(std::string name);
+
+    static std::vector<Series *> sort(std::vector<Video *> video);
 };
 
 

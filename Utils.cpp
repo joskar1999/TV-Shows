@@ -172,3 +172,23 @@ Live Utils::editLive(std::string name) {
 
     return live;
 }
+
+std::vector<Series *> Utils::sort(std::vector<Video *> video) {
+    std::vector<Series *> filteredSeries;
+
+    for (int i = 0; i < video.size(); ++i) {
+        if (dynamic_cast<Series *>(video[i])) {
+            filteredSeries.push_back(dynamic_cast<Series *>(video[i]));
+        }
+    }
+    for (int i = 0; i < filteredSeries.size(); ++i) {
+        for (int j = 0; j < filteredSeries.size() - 1; ++j) {
+            double tmp1 = dynamic_cast<Series *>(filteredSeries[j])->getRating();
+            double tmp2 = dynamic_cast<Series *>(filteredSeries[j + 1])->getRating();
+            if (tmp1 < tmp2) {
+                std::iter_swap(filteredSeries[j], filteredSeries[j + 1]);
+            }
+        }
+    }
+    return filteredSeries;
+}

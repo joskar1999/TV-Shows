@@ -6,6 +6,7 @@
 #include "Movie.h"
 #include "Live.h"
 #include "Utils.h"
+#include "Stats.h"
 #include <string>
 
 int main() {
@@ -17,6 +18,9 @@ int main() {
     Series tmpSer, *serPtr;
     Movie tmpMov, *movPtr;
     Live tmpLiv, *livPtr;
+
+    Stats stats;
+    std::vector<Series *> sorted;
 
     Series *ser, series;
     Series *ser2, series2;
@@ -72,6 +76,8 @@ int main() {
         std::cout << "7: Usun ze sledzonych" << std::endl;
         std::cout << "8: Rekomendacje" << std::endl;
         std::cout << "9: Edytuj Wideo" << std::endl;
+        std::cout << "a: Wyswietl statystyki" << std::endl;
+        std::cout << "b: Sortuj" << std::endl;
         std::cout << "q: Zakoncz" << std::endl;
         choice = getch();
 
@@ -190,6 +196,24 @@ int main() {
                     }
                 }
                 getch();
+            case 'a':
+                system("cls");
+                stats.countAverageRate(list.getList());
+                std::cout << "Srednia ocena seriali: " << stats.getAverageRateSeries() << std::endl;
+                std::cout << "Srednia ocena filmow: " << stats.getAverageRateMovie() << std::endl;
+                std::cout << "Statystyki. Nacisnij dowolny klawisz aby kontynuowac... ";
+                getch();
+                break;
+            case 'b':
+                system("cls");
+                std::cout << "Seriale z najwyzszymi ocenami" << std::endl;
+                sorted = Utils::sort(list.getList());
+                for (int i = 0; i < sorted.size(); ++i) {
+                    dynamic_cast<Series *>(sorted[i])->display();
+                }
+                std::cout << "Posortowane. Nacisnij dowolny klawisz aby kontynuowac... ";
+                getch();
+                break;
             case 'q':
                 break;
             default:
