@@ -20,47 +20,7 @@ int main() {
 
     Stats stats;
     std::vector<Series *> sorted;
-
-    Series *ser, series;
-    Series *ser2, series2;
-    Series *ser3, series3;
-    Series *ser4, series4;
-    Series *ser5, series5;
-    Movie *mov, movie;
-
-    ser = &series;
-    ser2 = &series2;
-    ser3 = &series3;
-    ser4 = &series4;
-    ser5 = &series5;
-    mov = &movie;
-
-    ser->setName("chuj");
-    ser->setRating(6.9);
-
-    ser2->setName("chuj2");
-    ser2->setRating(1.2);
-
-    ser3->setName("chuj3");
-    ser3->setRating(7.0);
-
-    ser4->setName("chuj4");
-    ser4->setRating(8.5);
-
-    ser5->setName("chuj5");
-    ser5->setRating(4.7);
-
-    mov->setName("pizda");
-    mov->setRating(9.0);
-    mov->setDuration(120);
-
     Collection<Video> list;
-    list.add(dynamic_cast<Series *>(ser));
-    list.add(dynamic_cast<Series *>(ser2));
-    list.add(dynamic_cast<Series *>(ser3));
-    list.add(dynamic_cast<Series *>(ser4));
-    list.add(dynamic_cast<Series *>(ser5));
-    list.add(dynamic_cast<Movie *>(mov));
 
     while (choice != 'q') {
 

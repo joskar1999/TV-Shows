@@ -29,6 +29,8 @@ public:
     static Live editLive(std::string name);
 
     static std::vector<Series *> sort(std::vector<Video *> video);
+
+    static std::vector<Video *> readFromFile(std::string fileName);
 };
 
 

@@ -4,6 +4,7 @@
 
 #include "List.h"
 #include "Movie.h"
+#include "Utils.h"
 #include <vector>
 #include <fstream>
 
@@ -14,17 +15,21 @@ private:
     std::vector<T *> collection;
     std::fstream file;
 
+
 public:
     Collection() {
-//        file.open("collection.txt", std::fstream::in | std::fstream::out);
+        List::List();
+        setCollection(Utils::readFromFile("collection.txt"));
     }
 
-    virtual ~Collection() {
-//        file.close();
-    }
+    virtual ~Collection() {}
 
     const std::vector<T> &getCollection() const {
         return collection;
+    }
+
+    void setCollection(const std::vector<T *> &collection) {
+        Collection::collection = collection;
     }
 
     /**

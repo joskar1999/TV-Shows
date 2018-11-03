@@ -1,3 +1,4 @@
+#include <fstream>
 #include "Utils.h"
 
 Series Utils::createNewSeries() {
@@ -191,4 +192,69 @@ std::vector<Series *> Utils::sort(std::vector<Video *> video) {
         }
     }
     return filteredSeries;
+}
+
+std::vector<Video *> Utils::readFromFile(std::string fileName) {
+
+    std::string tmp, text;
+    int ln;
+
+    std::vector<std::string> eps;
+    std::vector<Video *> video;
+
+    Series *series;
+    Movie *movie;
+    Live *live;
+
+    std::fstream file;
+    file.open(fileName, std::fstream::in);
+
+    while (!file.eof()) {
+        file >> tmp;
+        switch (tmp[0]) {
+            case 's':
+                series = new Series();
+                eps.clear();
+                text = "";
+                file >> tmp;
+                series->setName(tmp);
+                file >> tmp;
+                series->setRating(std::stod(tmp));
+                file >> tmp;
+                series->setEpisodesAmount(std::stoi(tmp));
+                ln = std::stoi(tmp);
+                for (int i = 0; i < ln; ++i) {
+                    file >> tmp;
+                    eps.push_back(tmp);
+                }
+                series->setEpisodes(eps);
+                video.push_back(series);
+                break;
+            case 'm':
+                movie = new Movie();
+                text = "";
+                file >> tmp;
+                movie->setName(tmp);
+                file >> tmp;
+                movie->setRating(std::stod(tmp));
+                file >> tmp;
+                movie->setDuration(std::stoi(tmp));
+                video.push_back(movie);
+                break;
+            case 'l':
+                live = new Live();
+                text = "";
+                file >> tmp;
+                live->setName(tmp);
+                file >> tmp;
+                live->setStart(tmp);
+                file >> tmp;
+                live->setDuration(std::stoi(tmp));
+                video.push_back(live);
+                break;
+        }
+    }
+    file.close();
+
+    return video;
 }

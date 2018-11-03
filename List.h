@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <fstream>
+#include "Utils.h"
 
 template<class T>
 class List {
@@ -13,15 +14,17 @@ private:
 
 public:
     List() {
-//        file.open("list.txt", std::fstream::in | std::fstream::out);
+        setList(Utils::readFromFile("list.txt"));
     }
 
-    virtual ~List() {
-//        file.close();
-    }
+    virtual ~List() {}
 
     const std::vector<T *> &getList() const {
         return list;
+    }
+
+    void setList(const std::vector<T *> &list) {
+        List::list = list;
     }
 
     /**

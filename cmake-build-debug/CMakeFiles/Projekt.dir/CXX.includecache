@@ -11,6 +11,8 @@ List.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
 Movie.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
+Utils.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
 vector
 -
 fstream
@@ -25,6 +27,8 @@ vector
 -
 fstream
 -
+Utils.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
 
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
 Video.h
