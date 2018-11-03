@@ -24,6 +24,8 @@ public:
     virtual void display() = 0;
 
     virtual int getWeeklyDuration() = 0;
+
+    virtual std::string prepareFileText() = 0;
 };
 
 

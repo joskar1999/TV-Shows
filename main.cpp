@@ -12,7 +12,6 @@
 int main() {
 
     char choice = 'c';
-    char *arr[100];
     std::string name;
 
     Series tmpSer, *serPtr;
@@ -101,6 +100,7 @@ int main() {
 //                std::getline(std::cin, name);
                 std::cin >> name;
                 list.addToCollection(name);
+                list.writeToFile();
                 break;
             case '4':
                 system("cls");
@@ -114,6 +114,7 @@ int main() {
                 tmpSeries->setEpisodes(tmpSer.getEpisodes());
 
                 list.add(dynamic_cast<Series *>(tmpSeries));
+                list.writeToFile();
                 break;
             case '5':
                 system("cls");
@@ -126,6 +127,7 @@ int main() {
                 tmpMovie->setDuration(tmpMov.getDuration());
 
                 list.add(dynamic_cast<Movie *>(tmpMovie));
+                list.writeToFile();
                 break;
             case '6':
                 system("cls");
@@ -138,6 +140,7 @@ int main() {
                 tmpLive->setDuration(tmpLiv.getDuration());
 
                 list.add(dynamic_cast<Live *>(tmpLive));
+                list.writeToFile();
                 break;
             case '7':
                 system("cls");
@@ -146,6 +149,7 @@ int main() {
 //                std::getline(std::cin, name);
                 std::cin >> name;
                 list.removeFromCollection(name);
+                list.writeToFile();
                 break;
             case '8':
                 system("cls");
@@ -195,6 +199,7 @@ int main() {
                         list.modify(tmpLive, name);
                     }
                 }
+                list.writeToFile();
                 getch();
             case 'a':
                 system("cls");

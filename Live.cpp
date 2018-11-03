@@ -30,3 +30,11 @@ void Live::display() {
 int Live::getWeeklyDuration() {
     return duration;
 }
+
+std::string Live::prepareFileText() {
+    std::string text = "l\n";
+    text = text + getName() + "\n";
+    text = text + start + "\n";
+    text = text + std::to_string(duration) + "\n";
+    return text;
+}

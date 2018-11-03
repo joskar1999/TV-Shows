@@ -31,6 +31,8 @@ public:
     void display() override;
 
     virtual int getWeeklyDuration();
+
+    virtual std::string prepareFileText();
 };
 
 

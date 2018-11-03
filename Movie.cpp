@@ -24,3 +24,11 @@ int Movie::getWeeklyDuration() {
     return duration;
 }
 
+std::string Movie::prepareFileText() {
+    std::string text = "m\n";
+    text = text + getName() + "\n";
+    text = text + std::to_string(getRating()) + "\n";
+    text = text + std::to_string(duration) + "\n";
+    return text;
+}
+

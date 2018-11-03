@@ -5,17 +5,23 @@
 #include "List.h"
 #include "Movie.h"
 #include <vector>
+#include <fstream>
 
 template<class T>
 class Collection : public List<T> {
 
 private:
     std::vector<T *> collection;
+    std::fstream file;
 
 public:
-    Collection() {}
+    Collection() {
+//        file.open("collection.txt", std::fstream::in | std::fstream::out);
+    }
 
-    virtual ~Collection() {}
+    virtual ~Collection() {
+//        file.close();
+    }
 
     const std::vector<T> &getCollection() const {
         return collection;
@@ -92,6 +98,16 @@ public:
                 collection[i] = object;
             }
         }
+    }
+
+    void writeToFile() {
+        List::writeToFile();
+        file.open("./collection.txt", std::ios::in | std::ios::out | std::ios::trunc);
+        for (int i = 0; i < collection.size(); ++i) {
+            file << collection[i]->prepareFileText();
+            std::cout << collection[i]->prepareFileText();
+        }
+        file.close();
     }
 };
 

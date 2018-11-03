@@ -2,17 +2,23 @@
 #define PROJEKT_LIST_H
 
 #include <vector>
+#include <fstream>
 
 template<class T>
 class List {
 
 private:
     std::vector<T *> list;
+    std::fstream file;
 
 public:
-    List() {}
+    List() {
+//        file.open("list.txt", std::fstream::in | std::fstream::out);
+    }
 
-    virtual ~List() {}
+    virtual ~List() {
+//        file.close();
+    }
 
     const std::vector<T *> &getList() const {
         return list;
@@ -89,6 +95,15 @@ public:
                 list[i] = object;
             }
         }
+    }
+
+    void writeToFile() {
+        file.open("./list.txt", std::ios::in | std::ios::out | std::ios::trunc);
+        for (int i = 0; i < list.size(); ++i) {
+            file << list[i]->prepareFileText();
+            std::cout << list[i]->prepareFileText();
+        }
+        file.close();
     }
 };
 

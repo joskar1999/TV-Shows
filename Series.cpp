@@ -43,3 +43,14 @@ int Series::getWeeklyDuration() {
     }
     return duration;
 }
+
+std::string Series::prepareFileText() {
+    std::string text = "s\n";
+    text = text + getName() + "\n";
+    text = text + std::to_string(getRating()) + "\n";
+    text = text + std::to_string(getEpisodesAmount()) + "\n";
+    for (int i = 0; i < episodesAmount; ++i) {
+        text = text + episodes[i] + "\n";
+    }
+    return text;
+}

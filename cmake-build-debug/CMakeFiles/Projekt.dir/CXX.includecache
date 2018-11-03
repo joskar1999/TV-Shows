@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Collection.h
+List.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
+Movie.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
+vector
+-
+fstream
+-
+
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/IMDB.h
 Video.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
+
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
+vector
+-
+fstream
+-
 
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
 Video.h
@@ -26,9 +42,11 @@ vector
 string
 -
 
-E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.cpp
-Utils.h
-E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Stats.h
+vector
+-
+Video.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
 
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
 iostream
@@ -45,6 +63,28 @@ Live.h
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
 
 E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Video.h
+string
+-
+
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/main.cpp
+iostream
+-
+conio.h
+-
+Series.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Series.h
+List.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/List.h
+Collection.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Collection.h
+Movie.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Movie.h
+Live.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Live.h
+Utils.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Utils.h
+Stats.h
+E:/Studia/Semestr III/Programowanie obiektowe/Projekt/TV-Shows/Stats.h
 string
 -
 
