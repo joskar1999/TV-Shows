@@ -59,7 +59,7 @@ int main() {
                 std::cout << "Dodaj do sledzonych: Wprowadz nazwe wideo ktore chcesz dodac... ";
 //                std::getline(std::cin, name);
                 std::cin >> name;
-                list.addToCollection(name);
+                list += name;
                 list.writeToFile();
                 break;
             case '4':
@@ -108,7 +108,7 @@ int main() {
                 std::cout << "Usun ze sledzonych: Wprowadz nazwe wideo ktore chcesz usunac... ";
 //                std::getline(std::cin, name);
                 std::cin >> name;
-                list.removeFromCollection(name);
+                list -= name;
                 list.writeToFile();
                 break;
             case '8':

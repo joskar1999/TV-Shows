@@ -114,6 +114,14 @@ public:
         }
         file.close();
     }
+
+    void operator+=(std::string name) {
+        addToCollection(name);
+    }
+
+    void operator-=(std::string name) {
+        removeFromCollection(name);
+    }
 };
 
 

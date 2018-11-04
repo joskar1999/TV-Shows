@@ -3,8 +3,7 @@ avatar
 8.500000
 150
 s
-altered
-9.200000
-2
-g
-h
+blacklist
+7.000000
+1
+f
